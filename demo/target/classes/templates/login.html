@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" th:href="@{/style/main.css}">
+    <link rel="stylesheet" th:href="@{/style/login.css}">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-line-flex">
+                <div class="header-logo">Blog</div>
+                <nav class="header-nav">
+                    <div class="header-nav-i">profile</div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="felx-i-element-in-login">
+            <div class="block-margin">
+                <input id="login" class="inp-login" type="text" placeholder="LOGIN">
+                <input id="password" class="inp-login" type="password" placeholder="PASSWORD">
+                <button id="btn" class="btn-login">
+                    LOGIN
+                </button>
+                <a href="/registration" class="text-url">REGISTRATION</a>
+                <a id="profile" href="/profile" style="display: none;"></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+    </footer>
+
+    <script type="text/javascript" th:src="@{/js/login.js}"></script>
+</body>
+
+</html>

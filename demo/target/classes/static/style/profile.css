@@ -1,0 +1,152 @@
+.felx-i-element-in-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-info {
+    margin: 3vh 0;
+    width: 25%;
+}
+
+.profile-list {
+    margin: 3vh 0;
+    width: 70%;
+}
+
+.block-base-l {
+    margin-top: 10px;
+    background-color: #d6d6d6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.block-base-r {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #d6d6d6;
+}
+
+.block-padding {
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.flex-base {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-user {
+    background-color: #d6d6d6;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100000000px;
+    margin: 10px 30px;
+    overflow: hidden;
+}
+
+.img-tr {
+    position: relative;
+    object-fit: cover;
+    width: 120%;
+    top: -40%;
+    left: -10%;
+}
+
+.usr-name {
+    color: #000000;
+    font-size: 20PX;
+    padding: 10px 30px;
+}
+
+.full-name {
+    color: #000000;
+    font-size: 20PX;
+}
+
+.block-img {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.block-img-tr {
+    max-height: 70vh;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.text-block {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+    color: #000000;
+    font-size: 18px;
+}
+
+.btn-base {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    color: #000000;
+    transition: 0.4s;
+}
+
+.btn-base:hover {
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.modal {
+    position: absolute;
+    width: 80%;
+    height: 40%;
+    display: none;
+    background-color: #d6d6d6;
+    margin-left: 10%;
+    margin-top: 20vh;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.modalPost {
+    position: absolute;
+    width: 80%;
+    height: 40%;
+    display: none;
+    background-color: #d6d6d6;
+    margin-left: 10%;
+    margin-top: 20vh;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.modalB {
+    position: absolute;
+    display: none;
+    width: 0%;
+    height: 0%;
+    background-color: #00000030;
+    z-index: 10;
+}
+
+.activeB {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.active {
+    display: block;
+    width: 80%;
+    height: 40%;
+}

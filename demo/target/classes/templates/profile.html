@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" th:href="@{/style/main.css}">
+    <link rel="stylesheet" th:href="@{/style/profile.css}">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="modal">
+        <input type="file" id="file" />
+        <button class="btn-base" id="btnRelode">
+
+        </button>
+    </div>
+    <div class="modalPost">
+
+        <input type="file" id="filePost" />
+        <input type="text" id="textPost" />
+        <button class="btn-base" id="btnRelodePost">
+
+        </button>
+
+
+    </div>
+
+
+    <div class="modalB">
+
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-line-flex">
+                <div class="header-logo">Blog</div>
+                <nav class="header-nav">
+                    <div class="header-nav-i">profile</div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="felx-i-element-in-profile">
+
+                <div class="profile-list">
+                    <div class="block-base-r">
+                        <div class="block-padding">
+
+
+                            <div class="flex-base">
+                                <div class="full-name">
+                                    <p class="name-rest"></p>
+                                </div>
+                                <button id="btn-main-post" class="btn-base">
+                                    добавить пост
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="posts">
+
+                    </div>
+                    <button id="btn-main-update-post" class="btn-base">
+                        отабразить 10 записей
+                    </button>
+                </div>
+
+                <div class="profile-info">
+                    <div class="block-base-l">
+                        <div class="usr-name">
+                            <p class="login-rest"></p>
+                        </div>
+                        <div class="img-user">
+                            <img class="img-tr" src="" alt="">
+                        </div>
+                        <button id="btn-main-foto" class="btn-base">
+                            Обновить фото
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+    </footer>
+    <script type="module" th:src="@{/js/profile.js}"></script>
+
+</body>
+
+</html>
